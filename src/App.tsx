@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>TypeScript Form</h1>
       <UserList users={users}/>
       <UserForm addUser={addUser}/>
     </div>
